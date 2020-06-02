@@ -6,15 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rajat Kumar Gupta</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function toggleNav() {
+            var x = document.getElementById("menu");
+            if (x.className === "topnav-right") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav-right";
+            }
+        }
+    </script>
 </head>
 
 <body>
 
 
     <div id="content">
-        <div id="navbar" class="sticky">
+        <div class="sticky" id="navbar">
             <img height="40px" src="img/blue_logo.svg" alt="Logo">
-            <div class="topnav-right">
+            <div class="topnav-right" id="menu">
                 <a href="#">Home</a>
                 <a href="#about">About</a>
                 <a href="#work">Work</a>
@@ -22,6 +33,9 @@
                 <a href="#contact">Contact</a>
                 <a href="https://bit.ly/knightcube-resume" target="_blank">Resume</a>
                 <a href="https://medium.com/@knightcube" target="_blank">Blog</a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </div>
 
@@ -174,36 +188,43 @@
                     <div id="work-detail-card">
                         <p class="role">Speaker</p>
                         <p class="company">Droidcon India 2019, Chennai, India</p>
-                        <p class="date">November 2019</p>
                         <p class="work-summary">Gave 1st public demonstration of the Litho device in India.</p>
+
                     </div>
 
                     <div id="work-detail-card">
                         <p class="role">Google I/O Attendee</p>
                         <p class="company">Google I/O 2019, MountainView, California</p>
-                        <p class="date">May 2019</p>
                         <p class="work-summary">Fully sponsored trip by Google to mountain View, California.</p>
+                        <div id="tags">
+                            <span> <a target="_blank" id="other-work-tag" href="https://youtu.be/qDVdfcx-5k0">Watch Video</a></span>
+                            <span> <a target="_blank" id="other-work-tag" href="https://medium.com/@knightcube/google-i-o-2019-experience-cf0692aacb9d">Read Article</a></span>
+                        </div>
+
                     </div>
 
                     <div id="work-detail-card">
                         <p class="role">Speaker</p>
                         <p class="company">Pragma 2019 Conference, Allahabad, India</p>
-                        <p class="date">January 2019</p>
                         <p class="work-summary">Invited to IIIT Allahabad to show the potential of AR/VR to Students.</p>
                     </div>
 
                     <div id="work-detail-card">
                         <p class="role">Google India Scholarship 2018 Recipient</p>
                         <p class="company">Initiative by Udacity</p>
-                        <p class="date">January 2018</p>
                         <p class="work-summary">Earned a full scholarship to learn android development from Udacity.</p>
+                        <div id="tags">
+                            <span> <a target="_blank" id="other-work-tag" href="https://medium.com/code-yoga/the-google-scholarship-journey-6e7571db82db">Read Article</a></span>
+                        </div>
                     </div>
 
                     <div id="work-detail-card">
-                        <p class="role">Udacity Techninja</p>
-                        <p class="company">Winner</p>
-                        <p class="date">December 2017</p>
+                        <p class="role">Hackathon Winner</p>
+                        <p class="company">Udacity Techninja</p>
                         <p class="work-summary">Top 10 out of 2500+ applicants across India to have earned this title.</p>
+                        <p class="extra">
+                            <a target="_blank" id="other-work-tag" href="https://medium.com/@knightcube/the-details-a6d4fa534086">Read Article</a>
+                        </p>
                     </div>
                 </div>
                 <a href="https://sessionize.com/knightcube" id="custom_btn" target="_blank">View my Speaker Profile</a>
@@ -214,7 +235,7 @@
         <footer id="contact">
             <h2 class="section-title ">Contact Me</h2>
             <p class="section-description ">You can directly mail me at
-                <a href="rajatcube@gmail.com ">rajatcube@gmail.com</a> or reach out to me on other social media platforms.</p>
+                <a href="rajatcube@gmail.com ">rajatcube@gmail.com</a> or reach out to me via social media channels for free mentorship on any topic ranging from tech queries to general career guidance.</p>
             <ul>
                 <li>
                     <a href=" https://linkedin.com/in/knightcube ">LinkedIn</a>
@@ -231,8 +252,5 @@
     </div>
 </body>
 
-</html>
-
-</html>
 
 </html>
