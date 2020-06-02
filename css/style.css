@@ -3,16 +3,21 @@
     font-family: sans-serif;
 }
 
+b {
+    color: white;
+}
+
+a:hover {
+    background-color: #25CCF7;
+    color: white;
+}
+
 #navbar {
     overflow: hidden;
     background-color: #0C1115;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 24px;
-}
-
-#navbar img {
-    margin-left: 40px;
 }
 
 .icon {
@@ -45,14 +50,14 @@
 }
 
 #tag_line {
-    color: rgba(255, 255, 255, 0.705);
+    color: #ffffffb4;
     font-weight: normal;
     font-size: 36px;
     margin: 12px 0 0 0;
 }
 
 #summary {
-    color: rgba(255, 255, 255, 0.705);
+    color: #ffffffb4;
     margin: 32px 0 32px 0;
     font-size: 18px;
     line-height: 18pt;
@@ -63,14 +68,20 @@ header img {
 }
 
 #custom_btn {
-    background-color: #e67e22;
+    border-color: #25CCF7;
+    border-style: solid;
+    border-width: 2px;
+    padding: 16px;
+    /* background-color: #e67e22; */
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
-    padding: 15px 32px;
-    margin-top: 16px;
     text-transform: uppercase;
+}
+
+#custom_btn:hover {
+    background-color: #25CCF7;
+    opacity: 1.0;
 }
 
 .section-title {
@@ -83,6 +94,7 @@ header img {
     margin: 32px 0 32px 0;
     font-size: 18px;
     line-height: 18pt;
+    letter-spacing: 1px;
 }
 
 .work-grid {
@@ -100,10 +112,13 @@ header img {
 }
 
 #tag {
-    color: white;
-    background-color: #1B9CFC;
-    padding: 8px;
+    color: #25CCF7;
+    /* background-color: #1B9CFC; */
+    border-color: #25CCF7;
+    border-width: 2px;
+    border-style: solid;
     font-size: small;
+    padding: 8px;
     border-radius: 2px;
     margin-right: 8px;
     margin-bottom: 8px;
@@ -111,8 +126,6 @@ header img {
 
 #other-work-tag {
     color: #25CCF7;
-    /* background-color: #F97F51; */
-    /* padding: 8px; */
     font-size: 10pt;
     border-radius: 2px;
     margin-top: 20px;
@@ -142,17 +155,36 @@ footer a {
     color: #25CCF7;
     text-decoration: none;
     margin-bottom: 8px;
-    font-size: large;
+}
+
+footer h2 {
+    color: white;
+    font-size: medium;
+}
+
+#credits {
+    color: white;
+    margin-top: 100x;
+    font-weight: bolder;
+}
+
+.fa {
+    border-color: #25CCF7;
+    border-style: solid;
+    border-width: 2px;
+    padding: 16px;
+    margin-right: 8px;
 }
 
 @media (max-width:600px) {
     #navbar img {
-        height: 20px;
+        margin-left: 32px;
+        height: 32px;
     }
     .topnav-right a {
         display: none;
         text-decoration: none;
-        color: white;
+        color: #25CCF7;
     }
     .topnav-right .icon {
         float: right;
@@ -171,23 +203,34 @@ footer a {
         text-align: left;
         font-size: larger;
         margin-bottom: 16px;
-        margin-right: 52px;
+        margin-right: 48px;
     }
     #content {
-        padding: 100px 32px 0px 32px;
+        padding: 100px 16px 0px 16px;
     }
     #greetings {
         font-size: 24px;
     }
     header img {
-        width: 150px;
-        height: 150px;
+        width: 75%;
+        height: 75%;
         margin-top: 50px;
         margin-bottom: 20px;
     }
     header {
         min-height: 60vh;
         margin-bottom: 80px;
+    }
+    #custom_btn {
+        width: auto;
+        font-size: 80%;
+        padding: 16px 16px;
+        margin-top: 16px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 75ch;
     }
     section {
         margin-bottom: 64px;
@@ -218,13 +261,19 @@ footer a {
         float: left;
     }
     iframe {
-        align-self: center;
         height: 350px;
         margin-bottom: 8px;
     }
     #project-video {
+        width: fit-content;
         color: white;
         margin-bottom: 32px;
+    }
+    #credits {
+        font-size: medium;
+        color: white;
+        margin-top: 48px;
+        font-weight: bolder;
     }
 }
 
@@ -237,6 +286,9 @@ footer a {
         padding: 16px;
         color: white;
     }
+    #navbar img {
+        margin-left: 40px;
+    }
     #content {
         padding: 200px;
     }
@@ -245,6 +297,11 @@ footer a {
         width: 25%;
         height: 25%;
         margin-left: 24px;
+    }
+    #custom_btn {
+        font-size: 16px;
+        padding: 15px 32px;
+        margin-top: 16px;
     }
     #summary {
         color: white;
