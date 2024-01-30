@@ -1,4 +1,3 @@
-import React from "react";
 import netflixDemo from "../../public/images/netflix-demo.gif";
 import githubFinderDemo from "../../public/images/github-finder-demo.gif";
 import MyButton from "../ui/MyButton";

@@ -1,5 +1,3 @@
-import React from "react";
-
 const MyButton = ({ title, url }: {title:String; url:string}) => {
   return (
     <a href={url}>

@@ -1,4 +1,3 @@
-import React from "react";
 import SocialIcons from "../ui/SocialIcons";
 
 const Footer = () => {
