@@ -4,8 +4,8 @@ import MyButton from "../ui/MyButton";
 
 const projectsData = [
   {
-    title: "Netflix Clone",
-    description: "A clone of the iconic UI of Netflix.",
+    title: "OTT Wars",
+    description: "A web app (ongoing project) to pick your favourite movie and test your knowledge by answering questions.",
     media: netflixDemo,
     demoURL: "https://netflix-clone-knightcube.vercel.app/",
     codeURL: "https://github.com/knightcube/netflix-clone",
@@ -38,7 +38,7 @@ const ProjectCard = ({
         <img className="p-1 rounded-md" src={media} alt="Demo Video" />
       </div>
       <h1 className="text-xl mt-4">{title}</h1>
-      <p className="text-sm text-gray-500 mt-2">{description}</p>
+      <p className="text-sm text-gray-500 mt-2 px-5">{description}</p>
       <div className="flex gap-2 items-center justify-center">
         <MyButton title="Demo" url={demoURL} />
         <MyButton title="Code" url={codeURL} />

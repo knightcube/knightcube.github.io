@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Youtube } from "lucide-react";
+import { Code, Github, Linkedin, Mail, Youtube } from "lucide-react";
 
 
 const SocialIcons = () => {
@@ -12,6 +12,9 @@ const SocialIcons = () => {
       </a>
       <a href="https://youtube.com/@knightcube">
         <Youtube />
+      </a>
+      <a href="https://leetcode.com/knightcube">
+       <Code/>
       </a>
       <a href="mailto:rajatcube@gmail.com">
         <Mail />

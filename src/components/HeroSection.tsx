@@ -9,14 +9,14 @@ const HeroSection = () => {
         <div className="text-center md:text-left md:w-2/3">
           <h1 className="text-5xl font-bold mb-4">Hi, I am Rajat.</h1>
           <p className="text-lg md:text-xl break-normal  md:w-2/3">
-            I am a full stack developer with <b>2+ years</b> of experience in{" "}
+            I am a full stack developer having extensive experience with{" "}
             <b>React</b> and
-            <b> Spring Boot</b>. Reach out if you'd like to know more!
+            <b> Spring Boot</b>. Reach out to me if you'd like to know more!
           </p>
           <div className="flex flex-row gap-5 mt-5 justify-center md:justify-start">
             <SocialIcons />
           </div>
-          <MyButton title="Contact Me" url="mailto:rajatcube@gmail.com"/>
+          <MyButton title="Connect With Me" url="https://linkedin.com/in/knightcube"/>
         </div>
         <img
           className="w-40 h-40 md:w-80 md:h-80 mb-8 md:scale-x-[-1]"
