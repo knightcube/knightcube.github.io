@@ -21,14 +21,14 @@ const projectsData = [
   },
   {
     title: "AR/VR Projects Compilation",
-    description: "A video compilation of a AR/VR Projects and prototypes that I have worked on till date.",
+    description: "A video compilation of AR/VR Projects and prototypes that I have worked on till date.",
     media: arvrDemo,
     demoURL: "https://www.youtube.com/watch?v=PsxLB0YMSO4",
     codeURL: "",
   },
   {
     title: "3D Modelling Projects Reel",
-    description: "A video compilation of 3D Models and animations I made with Blender.",
+    description: "A video compilation of 3D Models and animations that I designed with Blender.",
     media: blenderProjectsDemo,
     demoURL: "https://www.youtube.com/watch?v=KhCo_P5UaMo",
     codeURL: "",
