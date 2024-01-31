@@ -7,10 +7,10 @@ const SocialIcons = () => {
       <a href="https://linkedin.com/in/knightcube">
         <Linkedin />
       </a>
-      <a href="https://github.com/in/knightcube">
+      <a href="https://github.com/knightcube">
         <Github />
       </a>
-      <a href="https://youtube.com/knightcube">
+      <a href="https://youtube.com/@knightcube">
         <Youtube />
       </a>
       <a href="mailto:rajatcube@gmail.com">
