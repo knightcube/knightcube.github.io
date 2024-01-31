@@ -7,7 +7,7 @@ const ProjectCard = ({
   demoURL,
   codeURL,
   articleURL,
-  type,
+  type, 
 }: {
   title: String;
   media: string;
