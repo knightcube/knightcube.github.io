@@ -88,7 +88,7 @@ const SkillBoxes = ({ title, tags }: { title: String; tags: String[] }) => {
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="mx-auto mt-12 md:px-72">
+      <div className="mx-auto mt-28 md:px-72">
         <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left">
           Skills
         </h1>

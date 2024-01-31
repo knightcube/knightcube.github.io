@@ -2,9 +2,11 @@ import netflixDemo from "../../public/images/netflix-demo.gif";
 import githubFinderDemo from "../../public/images/github-finder-demo.gif";
 import arvrDemo from "../../public/images/augmented-reality-projects.jpg";
 import blenderProjectsDemo from "../../public/images/3d-modelling-projects.jpg";
+import planetStarsDemo from "../../public/images/planet-and-stars.gif";
 import arvrskillsArticle from "../../public/images/ar-vr-skills-article.jpeg";
 import unityVuforiaArticle from "../../public/images/how-to-create-ar-experience-unity-vuforia.webp";
 import vr360VideoArticle from "../../public/images/how-to-make-360-vr-video-unity.webp";
+import googleTripArticle from "../../public/images/google-trip.jpg";
 
 const projectsData = [
     {
@@ -44,6 +46,15 @@ const projectsData = [
       type:"project",
     },
     {
+        title: "Planets and Stars",
+        description: "A 3D website showcasing the power of Three.js.",
+        media: planetStarsDemo,
+        demoURL: "https://knightcube.github.io/planet-and-stars-threejs/",
+        codeURL: "https://github.com/knightcube/planet-and-stars-threejs",
+        articleURL:"",
+        type:"project",
+      },
+    {
         title: "9 Must Have Skills To Become An AR/VR Developer",
         description: "This article of mine is published in HackerNoon and more than 25000+ reads. It also shows up on the first page of Google if you search for \"ar/vr skills\".",
         media: arvrskillsArticle,
@@ -68,6 +79,15 @@ const projectsData = [
         demoURL: "",
         codeURL: "",
         articleURL:"https://blog.logrocket.com/make-360-vr-video-unity/",
+        type:"article",
+      },
+      {
+        title: "Google I/O 2019 (Trip Sponsored by Google)",
+        description: "I earned a fully sponsored trip to attend Google I/O 2019 conference at Mountain View, California.",
+        media: googleTripArticle,
+        demoURL: "",
+        codeURL: "",
+        articleURL:"https://medium.com/@knightcube/google-i-o-2019-experience-cf0692aacb9d",
         type:"article",
       },
 

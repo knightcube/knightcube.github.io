@@ -4,7 +4,7 @@ import ProjectCard from "../ui/ProjectCard";
 const Articles = () => {
   return (
     <section id="articles">
-      <div className="mx-auto mt-12 px-2 md:px-72 mb-52">
+      <div className="mx-auto mt-28 px-2 md:px-72 mb-52">
         <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left">
           Articles
         </h1>
