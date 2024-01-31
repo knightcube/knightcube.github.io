@@ -9,9 +9,9 @@ const HeroSection = () => {
         <div className="text-center md:text-left md:w-2/3">
           <h1 className="text-5xl font-bold mb-4">Hi, I am Rajat.</h1>
           <p className="text-lg md:text-xl break-normal  md:w-2/3">
-            I am a full stack developer having extensive experience with{" "}
-            <b>React</b> and
-            <b> Spring Boot</b>. Reach out to me if you'd like to know more!
+            I am a full stack developer having 2 years of experience with{" "}
+            <b>React</b>,
+            <b> Spring Boot</b> and <b>AR/VR</b>. Reach out to me if you'd like to know more!
           </p>
           <div className="flex flex-row gap-5 mt-5 justify-center md:justify-start">
             <SocialIcons />

@@ -1,5 +1,7 @@
 import netflixDemo from "../../public/images/netflix-demo.gif";
 import githubFinderDemo from "../../public/images/github-finder-demo.gif";
+import arvrDemo from "../../public/images/augmented-reality-projects.jpg";
+import blenderProjectsDemo from "../../public/images/3d-modelling-projects.jpg";
 import MyButton from "../ui/MyButton";
 
 const projectsData = [
@@ -16,6 +18,20 @@ const projectsData = [
     media: githubFinderDemo,
     demoURL: "https://github-finder-demo-ten.vercel.app/",
     codeURL: "https://github.com/knightcube/github-finder-demo",
+  },
+  {
+    title: "AR/VR Projects Compilation",
+    description: "A video compilation of a AR/VR Projects and prototypes that I have worked on till date.",
+    media: arvrDemo,
+    demoURL: "https://www.youtube.com/watch?v=PsxLB0YMSO4",
+    codeURL: "",
+  },
+  {
+    title: "3D Modelling Projects Reel",
+    description: "A video compilation of 3D Models and animations I made with Blender.",
+    media: blenderProjectsDemo,
+    demoURL: "https://www.youtube.com/watch?v=KhCo_P5UaMo",
+    codeURL: "",
   },
 ];
 
@@ -41,7 +57,7 @@ const ProjectCard = ({
       <p className="text-sm text-gray-500 mt-2 px-5">{description}</p>
       <div className="flex gap-2 items-center justify-center">
         <MyButton title="Demo" url={demoURL} />
-        <MyButton title="Code" url={codeURL} />
+        {codeURL && <MyButton title="Code" url={codeURL} />}
       </div>
     </div>
   );
@@ -50,7 +66,7 @@ const ProjectCard = ({
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="mx-auto mt-20 px-2 md:px-72 mb-52">
+      <div className="mx-auto mt-12 px-2 md:px-72">
         <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left">
           Projects
         </h1>
