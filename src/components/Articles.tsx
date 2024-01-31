@@ -1,17 +1,35 @@
 import projectsData from "../data/projectsData";
 import ProjectCard from "../ui/ProjectCard";
 
-const Projects = () => {
+const Articles = () => {
   return (
-    <section id="projects">
-      <div className="mx-auto mt-12 px-2 md:px-72">
+    <section id="articles">
+      <div className="mx-auto mt-12 px-2 md:px-72 mb-52">
         <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left">
-          Projects
+          Articles
         </h1>
+        <p className="text-lg mt-5">
+          I have published articles in renowned technical publications like{" "}
+          <a
+            className="text-blue-500"
+            href="https://hackernoon.com/u/knightcube"
+            target="_blank"
+          >
+            HackerNoon
+          </a>{" "}
+          and{" "}
+          <a
+            className="text-blue-500"
+            href="https://blog.logrocket.com/author/rajatgupta/"
+            target="_blank"
+          >
+            LogRocket.
+          </a>
+        </p>
         <div className="grid md:grid-cols-3 mt-5 md:mt-5 md:-ml-5 gap-4">
           {projectsData.map((item, index) => {
             return (
-              item.type === "project" && (
+              item.type === "article" && (
                 <ProjectCard
                   key={index}
                   title={item.title}
@@ -31,4 +49,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Articles;
