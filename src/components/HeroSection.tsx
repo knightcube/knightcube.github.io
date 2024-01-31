@@ -1,3 +1,4 @@
+import MyButton from "../ui/MyButton";
 import SocialIcons from "../ui/SocialIcons";
 
 const HeroSection = () => {
@@ -15,9 +16,7 @@ const HeroSection = () => {
           <div className="flex flex-row gap-5 mt-5 justify-center md:justify-start">
             <SocialIcons />
           </div>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-8">
-            Contact Me
-          </button>
+          <MyButton title="Contact Me" url="mailto:rajatcube@gmail.com"/>
         </div>
         <img
           className="w-40 h-40 md:w-80 md:h-80 mb-8 md:scale-x-[-1]"
