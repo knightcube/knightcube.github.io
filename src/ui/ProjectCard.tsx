@@ -18,10 +18,10 @@ const ProjectCard = ({
   type: string;
 }) => {
   return (
-    <div className="flex flex-col text-center rounded-md pb-5 bg-slate-200">
+    <div className="flex flex-col text-center items-center rounded-md pb-5 bg-slate-200">
       {media && (
         <div>
-          <img className="p-1 rounded-md" src={media} alt="Demo Video" />
+          <img className="w-full p-1 rounded-md" src={media} alt="Demo Video" />
         </div>
       )}
       <h1 className="text-xl mt-4 px-5">{title}</h1>

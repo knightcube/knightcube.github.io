@@ -65,7 +65,7 @@ const skillItems = [
 
 const SkillBoxes = ({ title, tags }: { title: String; tags: String[] }) => {
   return (
-    <div className="rounded-md md:min-w-52 md:min-h-80 m-2 p-4 bg-gradient-to-r from-sky-300 to-blue-400 hover:from-yellow-500 hover:to-pink-500">
+    <div className="rounded-md lg:min-w-52 lg:min-h-80 m-2 p-4 bg-gradient-to-r from-sky-300 to-blue-400 hover:from-yellow-500 hover:to-pink-500">
       <h1 className="text-md text-black text tracking-wide font-semibold">
         {title}
       </h1>
@@ -74,7 +74,7 @@ const SkillBoxes = ({ title, tags }: { title: String; tags: String[] }) => {
           return (
             <div
               key={index}
-              className="shadow-md text-sm  bg-black  rounded-lg px-2 py-1 text-white"
+              className="shadow-md text-sm  bg-black  rounded-lg: px-2 py-1 text-white"
             >
               {tagItem}
             </div>
@@ -88,12 +88,12 @@ const SkillBoxes = ({ title, tags }: { title: String; tags: String[] }) => {
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="mx-auto mt-28 md:px-72">
-        <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left">
+      <div className="mx-auto mt-28 lg:px-72">
+        <h1 className="text-4xl lg:text-5xl font-bold text-center lg:text-left">
           Skills
         </h1>
 
-        <div className="grid md:grid-cols-3 mt-5 md:mt-5 md:-ml-5">
+        <div className="grid lg:grid-cols-3 mt-5 lg:mt-5 lg:-ml-5">
           {skillItems.map((item, index) => {
             return (
               <SkillBoxes

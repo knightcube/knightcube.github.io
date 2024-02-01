@@ -1,6 +1,6 @@
 import netflixDemo from "../../public/images/netflix-demo.gif";
 import githubFinderDemo from "../../public/images/github-finder-demo.gif";
-import arvrDemo from "../../public/images/augmented-reality-projects.jpg";
+import arvrDemo from "../../public/images/augmented-reality-projects.webp";
 import blenderProjectsDemo from "../../public/images/3d-modelling-projects.jpg";
 import planetStarsDemo from "../../public/images/planet-and-stars.gif";
 import arvrskillsArticle from "../../public/images/ar-vr-skills-article.jpeg";
@@ -82,7 +82,7 @@ const projectsData = [
         type:"article",
       },
       {
-        title: "Google I/O 2019 (Trip Sponsored by Google)",
+        title: "Google I/O 2019 Trip (Sponsored by Google)",
         description: "I earned a fully sponsored trip to attend Google I/O 2019 conference at Mountain View, California.",
         media: googleTripArticle,
         demoURL: "",
