@@ -48,6 +48,7 @@ const Articles = () => {
                   codeURL={item.codeURL}
                   articleURL={item.articleURL}
                   type={item.type}
+                  skillTags={item.skillTags}
                 />
               )
             );

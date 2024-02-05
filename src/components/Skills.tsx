@@ -1,3 +1,5 @@
+import SkillBoxes from "./SkillBoxes";
+
 const skillItems = [
   {
     skillName: "Programming",
@@ -9,6 +11,8 @@ const skillItems = [
       "CSS",
       "Data Structures",
       "Algorithms",
+      "LLD",
+      "HLD"
     ],
   },
   {
@@ -17,11 +21,9 @@ const skillItems = [
       "React.js",
       "Tailwind",
       "Daisy UI",
-      "Material UI",
       "React Router",
       "Redux",
       "Jest",
-      "Playwright",
       "REST API Integration",
     ],
   },
@@ -44,7 +46,7 @@ const skillItems = [
   },
   {
     skillName: "DevOps",
-    skillTags: ["Sonarqube", "Git", "CI/CD", "Jenkins", "Docker", "Kubernetes"],
+    skillTags: ["Sonarqube", "Git", "CI/CD", "Docker"],
   },
   {
     skillName: "3D & AR/VR",
@@ -54,7 +56,6 @@ const skillItems = [
       "React Three Fiber",
       "Three.js",
       "WebXR",
-      "GLSL",
       "ARCore",
       "Vuforia",
       "XRTK",
@@ -63,27 +64,7 @@ const skillItems = [
   },
 ];
 
-const SkillBoxes = ({ title, tags }: { title: String; tags: String[] }) => {
-  return (
-    <div className="rounded-md lg:min-w-52 lg:min-h-80 m-2 p-4 bg-gradient-to-r from-sky-300 to-blue-400 hover:from-yellow-500 hover:to-pink-500">
-      <h1 className="text-md text-black text tracking-wide font-semibold">
-        {title}
-      </h1>
-      <div className="flex flex-wrap gap-2 mt-5">
-        {tags.map((tagItem, index) => {
-          return (
-            <div
-              key={index}
-              className="shadow-md text-sm  bg-black  rounded-lg: px-2 py-1 text-white"
-            >
-              {tagItem}
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-};
+
 
 const Skills = () => {
   return (
