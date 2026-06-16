@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 @layer base {
-  body {
+  html, body {
     background-color: #050505;
     color: #e5e2e1;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: 100vw;
+    max-width: 100%;
+  }
+  
+  #root {
+    overflow-x: hidden !important;
+    width: 100%;
   }
 }
 

@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         {/* Hero Image / GIF */}
-        <div className="hidden lg:flex justify-end items-center relative pl-8">
+        <div className="flex justify-center lg:justify-end items-center relative lg:pl-8 mt-8 lg:mt-0">
           <div className="absolute inset-0 bg-primary-container/10 blur-[80px] rounded-full transform translate-x-12 translate-y-12"></div>
           <img
             src="/images/personal/Photo Burst.gif"

@@ -22,11 +22,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/20">
-        <div className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto relative">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/20">
+        <div className="flex justify-between items-center px-8 md:px-12 py-4 max-w-container-max mx-auto relative w-full">
           <Link
             to="/"
-            className="font-headline-md text-headline-md font-bold text-on-surface tracking-tight z-50"
+            className="font-headline-md text-headline-md font-bold text-on-surface tracking-tight z-50 truncate mr-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Rajat Kumar Gupta
@@ -37,7 +37,7 @@ export default function Navbar() {
             className="md:hidden z-50 text-on-surface hover:text-primary-container transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            <span className="material-symbols-outlined text-[32px]">
+            <span className="material-symbols-outlined text-[32px] block">
               {isMobileMenuOpen ? "close" : "menu"}
             </span>
           </button>
@@ -97,12 +97,12 @@ export default function Navbar() {
             <div className="flex flex-col pl-4 gap-2 border-l border-outline-variant/20 ml-2">
               <NavLink to="/software" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Coding</NavLink>
               <NavLink to="/ar-vr" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>AR/VR</NavLink>
-              <NavLink to="/animations" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>3D Animations</NavLink>
-              <NavLink to="/graphics" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Graphic Design</NavLink>
+              {/* <NavLink to="/animations" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>3D Animations</NavLink>
+              <NavLink to="/graphics" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Graphic Design</NavLink> */}
             </div>
             <span className="font-label-sm text-primary-container uppercase tracking-widest mt-6 mb-2">Explore</span>
             <NavLink to="/archives" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Archives</NavLink>
-            <NavLink to="/shop" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Shop</NavLink>
+            {/* <NavLink to="/shop" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Shop</NavLink> */}
             <NavLink to="/gallery" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Gallery</NavLink>
             <NavLink to="/contact" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Contact</NavLink>
           </div>
