@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #050505;
+    color: #e5e2e1;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .grid-bg {
+    background-image: 
+        linear-gradient(to right, #262626 1px, transparent 1px),
+        linear-gradient(to bottom, #262626 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: center top;
+    mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  .bento-card {
+    background-color: #121212;
+    border: 1px solid #262626;
+    transition: all 0.3s ease;
+  }
+
+  .bento-card:hover {
+    border-color: #00d1ff;
+    transform: translateY(-2px);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(0, 209, 255, 0.3);
+  }
+
+  .glass-nav {
+    background: rgba(5, 5, 5, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
