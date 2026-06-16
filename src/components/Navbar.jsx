@@ -82,6 +82,7 @@ export default function Navbar() {
 
             <NavLink to="/archives" className={({ isActive }) => `${baseClass} ${isActive ? activeClass : ""}`}>Archives</NavLink>
             {/* <NavLink to="/shop" className={({ isActive }) => `${baseClass} ${isActive ? activeClass : ""}`}>Shop</NavLink> */}
+            <NavLink to="/gallery" className={({ isActive }) => `${baseClass} ${isActive ? activeClass : ""}`}>Gallery</NavLink>
             <NavLink to="/contact" className={({ isActive }) => `${baseClass} ${isActive ? activeClass : ""}`}>Contact</NavLink>
           </div>
         </div>
@@ -102,6 +103,7 @@ export default function Navbar() {
             <span className="font-label-sm text-primary-container uppercase tracking-widest mt-6 mb-2">Explore</span>
             <NavLink to="/archives" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Archives</NavLink>
             <NavLink to="/shop" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Shop</NavLink>
+            <NavLink to="/gallery" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Gallery</NavLink>
             <NavLink to="/contact" onClick={() => setIsMobileMenuOpen(false)} className={mobileLinkClass}>Contact</NavLink>
           </div>
         </div>

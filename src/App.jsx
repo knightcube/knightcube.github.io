@@ -13,6 +13,7 @@ import CaseStudy from './pages/CaseStudy';
 import Shop from './pages/Shop';
 import Archives from './pages/Archives';
 import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/projects/:id" element={<CaseStudy />} />
         <Route path="/archives" element={<Archives />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
