@@ -14,6 +14,8 @@ import Shop from './pages/Shop';
 import Archives from './pages/Archives';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path="/archives" element={<Archives />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
