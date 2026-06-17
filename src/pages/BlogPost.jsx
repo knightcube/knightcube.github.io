@@ -90,9 +90,9 @@ export default function BlogPost() {
         <Giscus
           id="comments"
           repo="knightcube/knightcube.github.io"
-          repoId="MDEwOlJlcG9zaXRvcnkxMzk2NjgzNjA="
+          repoId={import.meta.env.VITE_GISCUS_REPO_ID}
           category="Announcements"
-          categoryId="DIC_kwDOCFMriM4C_Tj3"
+          categoryId={import.meta.env.VITE_GISCUS_CATEGORY_ID}
           mapping="pathname"
           strict="0"
           reactionsEnabled="1"

@@ -8,8 +8,8 @@ export default function Contact() {
     const form = e.target;
 
     // To enable this form, sign up at Formspree.io and paste your endpoint URL below
-    // Example: const endpoint = "https://formspree.io/f/YOUR_ENDPOINT_ID";
-    const endpoint = "https://formspree.io/f/xnjywklw";
+    // Example: const endpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT;
+    const endpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT;
 
     if (!endpoint) {
       setStatus("Please configure your Formspree endpoint in Contact.jsx");
