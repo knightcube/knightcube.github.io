@@ -1,31 +1,71 @@
 export const featuredMasterclass = {
   id: "vibe-coding",
-  title: "Advanced Vibe-Coding Masterclass",
-  badges: ["Video Course", "12 Hours"],
-  description: "Transcend traditional syntax. Learn the workflow of the future, leveraging AI, intuitive state management, and high-contrast minimal UI principles to build immersive web experiences at the speed of thought.",
-  originalPrice: "$299",
-  currentPrice: "$149",
+  title: "Vibe Coding with Antigravity",
+  badges: ["Masterclass", "AI Dev"],
+  description: "Transcend traditional syntax. Learn the workflow of the future, leveraging AI and intuitive state management to build immersive web experiences at the speed of thought.",
+  originalPrice: "₹24,999",
+  currentPrice: "₹12,499",
   image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBvJZQaBkkZhBNB3342vnff8MqzAMw9JSqYfUlUOtFVKYpdKLNGlReVfaQhQcGbP8dhwrVxZTGk4_SB7B1DNvNfWUkStCbWQgzGDV-VbXphO-ps35qLYfHkFKAu_6pSrn__mdc_VKscP7GeUQoFlWVqcz15g5lEcAAbUjzdhTLwTdjv4kkZ12pgIsHI63hgitgAGkIzf8H9ph4x1gXHD1iCTjA_0sVXKyM2IpWkBL_T6w5uNJStXr6rg98onseFlKCVVo0D0hZYfEQ",
-  link: "#"
+  link: "/course/vibe-coding",
+  benefits: [
+    "Learn to build full web applications just by talking to AI.",
+    "Master prompt engineering for complex UI/UX designs.",
+    "Understand how to debug and iterate quickly with AI agents.",
+    "Deploy your projects seamlessly from idea to production."
+  ],
+  curriculum: [
+    { module: "Module 1", title: "Introduction to Vibe Coding", duration: "1 hr" },
+    { module: "Module 2", title: "Setting up your Agentic IDE", duration: "2 hrs" },
+    { module: "Module 3", title: "Building a React App from Scratch", duration: "4 hrs" },
+    { module: "Module 4", title: "Advanced State Management with AI", duration: "3 hrs" },
+    { module: "Module 5", title: "Deployment and CI/CD", duration: "2 hrs" }
+  ]
 };
 
-export const digitalToolkits = [
+export const courses = [
   {
-    id: "neon-brutalist",
-    title: "Neon Brutalist Design System",
-    tech: "Figma + React",
-    description: "A comprehensive UI kit for Figma and React, emphasizing stark contrasts, aggressive typography, and electric accents. Stop designing soft interfaces.",
-    price: "$49",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDooIt-RURAixx_LUGdhtg8WElL71cVV6kyTyeqrHF3ORzdiU27Ml6XIQzHaXMEuvi473uXrJNWa9jCBiD-9TmH3fypq3gge-nzMCrFt51pWAFOKDBhPjzh3Q7xZz9x1EEMC9sPiH9Nbxsi--MgUDDnolTshWPc_KfOH_sU_JDc4L7bWoEI_Ze7YmbDNJ_OdJ54coeTTOmBi47vofFDeYDRzCXZXg5KFkxIz8RE4BxhI6wB892kHDeFHslLifxeY2-FQNuQEoXVUAQ",
-    link: "#"
+    id: "blender-mastery",
+    title: "Blender 3D Mastery",
+    tech: "Blender + Rendering",
+    description: "From beginner to pro. Master 3D modeling, texturing, lighting, and animation in Blender. Build your portfolio with stunning 3D art.",
+    price: "₹16,499",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop",
+    link: "/course/blender-mastery",
+    benefits: [
+      "Master the Blender interface and shortcuts.",
+      "Learn hard-surface and organic modeling techniques.",
+      "Understand node-based material creation.",
+      "Animate scenes and render them with Cycles and Eevee."
+    ],
+    curriculum: [
+      { module: "Module 1", title: "Blender Basics & Navigation", duration: "2 hrs" },
+      { module: "Module 2", title: "Modeling Foundations", duration: "5 hrs" },
+      { module: "Module 3", title: "Texturing & Shading", duration: "4 hrs" },
+      { module: "Module 4", title: "Lighting & Composition", duration: "3 hrs" },
+      { module: "Module 5", title: "Animation & Rendering", duration: "4 hrs" }
+    ]
   },
   {
-    id: "supabase-saas",
-    title: "Supabase SAAS Starter",
-    tech: "Next.js + Supabase",
-    description: "Launch your next application this weekend. A production-ready boilerplate featuring auth, multi-tenant organizations, and billing powered by Stripe.",
-    price: "$89",
-    icon: "database", // Abstract representation instead of a raster image
-    link: "#"
+    id: "financial-accounting",
+    title: "Financial Accounting for Creators",
+    tech: "Finance + Business",
+    description: "Learn the essentials of financial accounting tailored for digital creators and freelancers. Master bookkeeping, taxes, and financial planning.",
+    price: "₹8,499",
+    icon: "account_balance",
+    link: "/course/financial-accounting",
+    benefits: [
+      "Understand basic accounting principles like assets, liabilities, and equity.",
+      "Learn how to file your taxes as an independent creator.",
+      "Master cash flow forecasting to grow your business.",
+      "Setup software tools to automate your bookkeeping."
+    ],
+    curriculum: [
+      { module: "Module 1", title: "The Freelancer's Balance Sheet", duration: "1.5 hrs" },
+      { module: "Module 2", title: "Income, Expenses & Margins", duration: "2 hrs" },
+      { module: "Module 3", title: "Tax Optimization for Creators", duration: "3 hrs" },
+      { module: "Module 4", title: "Setting up Bookkeeping Software", duration: "1.5 hrs" }
+    ]
   }
 ];
+
+export const digitalProducts = [];

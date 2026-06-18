@@ -43,7 +43,7 @@ export default function ToolkitCard({ item }) {
         <div className="flex items-center justify-between pt-4 border-t border-[#1A1A1A]">
           <span className="font-headline-md text-headline-md text-on-surface">{item.price}</span>
           <Link to={item.link} className="bg-transparent border border-[#262626] text-on-surface hover:border-primary-container hover:text-primary-container font-label-md text-label-md px-6 py-2 rounded transition-all duration-200">
-            View Details
+            View Course
           </Link>
         </div>
       </div>
