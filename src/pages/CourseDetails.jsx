@@ -116,12 +116,23 @@ export default function CourseDetails() {
                 </li>
               </ul>
 
-              <Link 
-                to={`/checkout/${product.id}`} 
-                className="bg-primary-container text-[#050505] hover:bg-surface-tint font-headline-md px-8 py-4 rounded transition-colors duration-200 flex items-center justify-center gap-2 w-full text-center"
-              >
-                Enroll Now <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
-              </Link>
+              {product.checkoutUrl ? (
+                <a 
+                  href={product.checkoutUrl} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary-container text-[#050505] hover:bg-surface-tint font-headline-md px-8 py-4 rounded transition-colors duration-200 flex items-center justify-center gap-2 w-full text-center"
+                >
+                  Enroll Now <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
+                </a>
+              ) : (
+                <Link 
+                  to={`/checkout/${product.id}`} 
+                  className="bg-primary-container text-[#050505] hover:bg-surface-tint font-headline-md px-8 py-4 rounded transition-colors duration-200 flex items-center justify-center gap-2 w-full text-center"
+                >
+                  Enroll Now <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
+                </Link>
+              )}
             </div>
           </div>
         </div>
