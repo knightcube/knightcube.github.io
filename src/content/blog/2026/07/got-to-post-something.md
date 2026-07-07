@@ -1,6 +1,7 @@
 ---
 title: "Got to post something"
 date: "2026-07-07"
+draft: true
 excerpt: "I gave a talk on Trending Tech at IIT Prayagraj "
 category: ""
 tags: []
@@ -30,11 +31,7 @@ And yeah that's it basically.
 
 Here are some more pics
 
-
-
 ![](/images/personal/IMG_9312.jpg)
-
-
 
 ![](/images/personal/IMG_9289.jpg)
 
