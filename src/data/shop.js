@@ -7,7 +7,7 @@ export const featuredMasterclass = {
   currentPrice: "₹12,499",
   image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBvJZQaBkkZhBNB3342vnff8MqzAMw9JSqYfUlUOtFVKYpdKLNGlReVfaQhQcGbP8dhwrVxZTGk4_SB7B1DNvNfWUkStCbWQgzGDV-VbXphO-ps35qLYfHkFKAu_6pSrn__mdc_VKscP7GeUQoFlWVqcz15g5lEcAAbUjzdhTLwTdjv4kkZ12pgIsHI63hgitgAGkIzf8H9ph4x1gXHD1iCTjA_0sVXKyM2IpWkBL_T6w5uNJStXr6rg98onseFlKCVVo0D0hZYfEQ",
   link: "/course/vibe-coding",
-  checkoutUrl: "https://learn.knightcube.com/single-checkout/693a7d44807bd55ca292a11d?pid=p1",
+  checkoutUrl: "https://learn.knightcube.com/single-checkout/693a7d44807bd55ca292a11d?pid=p1", // Added external checkout link here
   benefits: [
     "Learn to build full web applications just by talking to AI.",
     "Master prompt engineering for complex UI/UX designs.",

@@ -21,7 +21,7 @@ export function getBlogPosts() {
       content: body,
       ...attributes // in case there are other custom fields
     };
-  });
+  }).filter(post => !post.draft);
   
   // Sort posts by date descending
   return posts.sort((a, b) => new Date(b.date) - new Date(a.date));

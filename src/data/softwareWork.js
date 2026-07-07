@@ -1,9 +1,20 @@
 export const projectsData = [
   {
+    id: "student-companion-app",
+    title: "Student Companion App",
+    category: "Web Apps",
+    tags: ["React.js", "Vite", "Tailwind CSS", "Supabase", "Vercel", "Gemini Pro", "Google Antigravity"],
+    description: "The academic experience is often weighed down by scattered notes, shifting deadlines, and fragmented resources. This Student Portal is a centralized application designed to eliminate administrative friction and bring order to student life",
+    media: "/images/student_portal.gif",
+    link: "https://app.notion.com/p/knightcube/MMS-Student-Portal-396733a10ea18060b5b4e40c43a739fa",
+    // liveLink: "https://mba-quiz-practice.vercel.app/",
+    ctaText: "Read Article"
+  },
+  {
     id: "mba-quiz-portal",
     title: "MBA Quiz Practice Portal",
     category: "Web Apps",
-    tags: ["React.js", "Vite", "Tailwind CSS", "Supabase", "Vercel", "Gemini Pro"],
+    tags: ["React.js", "Vite", "Tailwind CSS", "Supabase", "Vercel", "Gemini Pro", "Google Antigravity"],
     description: "A quiz practice portal built for Business school students, featuring an AI-curated curriculum of 500+ questions and dynamic weakness-tracking to optimize exam preparation.",
     media: "/images/mba_quiz.gif", // Replace with actual path
     link: "https://mba-quiz-practice.vercel.app/",
@@ -24,7 +35,7 @@ export const projectsData = [
     id: "iiit-vr-research",
     title: "Detecting Astigmatism Condition in Human Eye using VR",
     category: "Research",
-    tags: ["Research", "VR", "Healthcare"],
+    tags: ["Research", "VR", "Healthcare", "Unity"],
     timeline: "2020",
     description: "Co-authored research accepted at EuroVR 2020. Developed a VR healthcare app for Oculus Go using Unity/C#.",
     media: "/images/iiit_vr_research.png", // Replace with actual path

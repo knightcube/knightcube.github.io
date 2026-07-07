@@ -18,6 +18,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Checkout from './pages/Checkout';
 import CourseDetails from './pages/CourseDetails';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
 
       <Footer />

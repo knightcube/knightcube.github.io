@@ -22,8 +22,7 @@ export default function Home() {
             Developer & Designer
           </p>
           <h1 className="font-display text-[40px] md:text-[56px] lg:text-[72px] xl:text-[84px] text-on-surface mb-8 leading-[1.05] tracking-tight max-w-4xl">
-            Building Software &<br />
-            <span className="text-primary-container text-glow">Designing Experiences.</span>
+            AI Product Engineer<br />
           </h1>
           {/* <p className="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-2xl leading-relaxed opacity-80 border-l-2 border-surface-container-high pl-6">
             I am a software developer passionate about creating impactful digital experiences. I specialize in building scalable web applications, immersive AR/VR prototypes, and clean UI designs.
@@ -101,7 +100,7 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary-container/5 rounded-full blur-3xl group-hover:bg-primary-container/10 transition-colors"></div>
             <span className="font-label-sm uppercase tracking-widest text-on-surface-variant mb-4 block">About Me</span>
             <p className="font-body-lg text-on-surface leading-relaxed max-w-lg">
-              I love combining logic and creativity to solve problems. Whether I'm writing complex backend code or designing 3D prototypes, my goal is always to deliver value and a great user experience.
+              I am an engineer by training with a strong product mindset. I specialize in leveraging LLMs and AI agents to craft streamlined, practical solutions for real-world problems.
             </p>
           </div>
 

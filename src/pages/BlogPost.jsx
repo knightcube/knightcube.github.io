@@ -26,7 +26,7 @@ export default function BlogPost() {
   }
 
   return (
-    <div className="min-h-screen pt-32 pb-20 px-8 md:px-12 max-w-3xl mx-auto">
+    <div className="min-h-screen pt-32 pb-20 px-8 md:px-12 max-w-4xl mx-auto">
       <div className="mb-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
         <Link 
           to="/blog" 
