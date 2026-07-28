@@ -1,5 +1,16 @@
 export const projectsData = [
   {
+    id: "sargam-flow-app",
+    title: "Sargam Flow",
+    category: "Web Apps",
+    tags: ["React.js", "Vite", "Tailwind CSS", "Supabase", "Vercel", "Gemini Pro", "Google Antigravity"],
+    description: "A real-time flute visualizer and notation recorder tailored for the Indian bansuri. It provides instant visual feedback on pitch and breath stability, automatically translates live playing into sargam notation, and features a built-in studio for recording social-media-ready performances.",
+    media: "/images/blog/sargam-flow-1.png",
+    link: "/blog/sargamflow-flute-visualizer-google-antigravity",
+    // liveLink: "https://sargam-flow.vercel.app/",
+    ctaText: "Read Article"
+  },
+  {
     id: "student-companion-app",
     title: "Student Companion App",
     category: "Web Apps",

@@ -75,7 +75,29 @@ export default function BlogPost() {
         <ReactMarkdown 
           remarkPlugins={[remarkGfm]}
           components={{
-            a: ({node, ...props}) => <a target="_blank" rel="noopener noreferrer" {...props} />
+            a: ({node, ...props}) => {
+              const href = props.href || '';
+              // Matches: https://instagram.com/p/123, https://instagram.com/reel/123, and https://instagram.com/username/reel/123
+              const match = href.match(/^https?:\/\/(www\.)?instagram\.com\/(?:[A-Za-z0-9_.-]+\/)?(p|reel)\/([A-Za-z0-9_-]+)\/?/);
+              const isBare = String(props.children).trim() === href;
+              
+              if (match && isBare) {
+                const embedUrl = `https://www.instagram.com/${match[2]}/${match[3]}/embed/`;
+                return (
+                  <span className="flex justify-center my-8">
+                    <iframe 
+                      src={embedUrl} 
+                      className="w-full max-w-sm h-[580px] rounded-2xl border border-outline-variant/30 shadow-2xl bg-surface" 
+                      frameBorder="0" 
+                      scrolling="no" 
+                      allowtransparency="true"
+                      allow="encrypted-media"
+                    />
+                  </span>
+                );
+              }
+              return <a target="_blank" rel="noopener noreferrer" className="text-primary-container hover:underline" {...props} />
+            }
           }}
         >
           {post.content}

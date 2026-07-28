@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/sargamflow",
+      "destination": "https://sargam-flow.vercel.app/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
