@@ -7,7 +7,7 @@ export const projectsData = [
     description: "A real-time flute visualizer and notation recorder tailored for the Indian bansuri. It provides instant visual feedback on pitch and breath stability, automatically translates live playing into sargam notation, and features a built-in studio for recording social-media-ready performances.",
     media: "/images/blog/sargam-flow-1.png",
     link: "/blog/sargamflow-flute-visualizer-google-antigravity",
-    // liveLink: "https://sargam-flow.vercel.app/",
+    liveLink:"https://sargamflow.knightcube.com",
     ctaText: "Read Article"
   },
   {
@@ -18,7 +18,7 @@ export const projectsData = [
     description: "The academic experience is often weighed down by scattered notes, shifting deadlines, and fragmented resources. This Student Portal is a centralized application designed to eliminate administrative friction and bring order to student life",
     media: "/images/student_portal.gif",
     link: "https://app.notion.com/p/knightcube/MMS-Student-Portal-396733a10ea18060b5b4e40c43a739fa",
-    // liveLink: "https://mba-quiz-practice.vercel.app/",
+    liveLink: "https://studentportal.knightcube.com",
     ctaText: "Read Article"
   },
   {

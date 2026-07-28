@@ -13,9 +13,7 @@ I've seen those piano visualizer videos on YouTube — the ones where the keys l
 
 It didn't. Not for flute in general, and definitely not for the Indian bansuri, played and read through sargam — the Indian classical notation system, not Western sheet music.
 
-So I decided to build it myself. 
-
-
+So I decided to build it myself.
 
 https://www.instagram.com/flute.hummer/reel/DbTFu8RBpSk/
 
@@ -37,7 +35,9 @@ Antigravity built the scaffolding fast — pitch detection off the Web Audio API
 
 ## The Sa calibration bug
 
-![](/images/blog/sargam-flow-1.png)
+
+
+![image.png](/images/blog/1785202985937-image.png)
 
 The whole system is tonic-relative — every note is sargam relative to whatever Sa (the tonic) you set. That calibration is the foundation everything else sits on. And it wasn't working. I'd calibrate Sa, and the visualizer just wouldn't reflect it — the notes coming out were mapped wrong.
 
@@ -72,7 +72,9 @@ SargamFlow does everything I set out to build, and then some:
 
 It's running on localhost right now, and I'm moving it to Vercel shortly — by the time this is live, SargamFlow will be too.
 
-The app is live now - [https://sargam-flow.vercel.app/](https://sargam-flow.vercel.app/session)
+The app is live now - [https://sargamflow.knightcube.com/](https://sargam-flow.vercel.app/session)
+
+![image.png](/images/blog/1785202958637-image.png)
 
 ## What I'd tell another builder
 
